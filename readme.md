@@ -13,7 +13,8 @@ Importar o arquivo _UcColorPicker.xpz_ na KB.
 Event Start
     // CategoriaCor -> Varchar(10) vai armazenar valor no formato Hexadecimal. Ex: "#FF55AA"
     UcColorpicker1.GxControl = CategoriaCor.InternalName
-EndEvent```
+EndEvent
+```
 
 ![Em execução](print.png)
 
