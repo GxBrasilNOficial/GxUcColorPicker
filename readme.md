@@ -7,7 +7,7 @@ Importar o arquivo _UcColorPicker.xpz_ na KB.
 
 ## Exemplo de uso
 1) Adicionar o _UserControl_ _UcColorPicker_ no _WebForm_.
-2) No evento Start atribuir a propriedade _InternalName_ de um atributi/variável à propriedade _GxControl_ do _UcColorPicker_.
+2) No evento Start atribuir a propriedade _InternalName_ de um atributo/variável à propriedade _GxControl_ do _UcColorPicker_.
 
 ```Gx
 Event Start
