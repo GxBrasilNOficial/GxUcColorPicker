@@ -1,4 +1,4 @@
-# Gx Color Picker
+# Genexus Color Picker
 User control para seletor de cor. Faz uso do _input type=color_ padrão do _HTML5_.
 
 ## Instalação
