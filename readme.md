@@ -2,6 +2,10 @@
 
 User control para seletor de cor. Faz uso do _input type=color_ padrão do _HTML5_.
 
+O valor da cor em Hexadecimal é gravado na variável/atributo.
+
+![Em execução](print.png)
+
 ## Instalação
 
 Importar o arquivo _UcColorPicker.xpz_ na KB.
@@ -14,12 +18,6 @@ Importar o arquivo _UcColorPicker.xpz_ na KB.
 2) Alterar a propriedade "Control Type" da variável para "UCInputColor".
 
 ![Properties da variável](print_1.png)
-
-### Em execução
-
-O valor da cor em Hexadecimal é gravado na variável/atributo.
-
-![Em execução](print.png)
 
 ## Meta
 
