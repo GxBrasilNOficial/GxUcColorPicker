@@ -3,37 +3,25 @@
   <KMW>
     <MajorVersion>4</MajorVersion>
     <MinorVersion>0</MinorVersion>
-    <Build>141339</Build>
+    <Build>182098</Build>
   </KMW>
-  <Source kb="de31690d-8025-4f01-9629-6d268d7bfa2b" username="M14\M14" UNCPath="\\M14\F$\Models\Portal B2b">
-    <Version guid="e4e7490e-6aef-438c-b5bb-adef9d33617d" name="PortalB2B" />
+  <Source kb="470aebf0-d9ac-4357-a704-c0e96b9fa474" username="NB-ACER\GILMAR" UNCPath="\\NB-ACER\C$\Models\KBUCS">
+    <Version guid="3936c02b-4b7a-49d4-affb-e862af6f96c0" name="ApoiaV2" />
   </Source>
   <Objects>
-    <Object parent="Utils" parentType="00000000-0000-0000-0000-000000000008" parentGuid="e4e6d65a-a75c-455a-bfc9-4b31a66a5caa" user="M14\M14" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2020-07-06T18:17:56.0000000Z" checksum="3751240071183a3b3ec026e05d9f53a3" fullyQualifiedName="UcColorpicker" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="5822c00d-505a-4a9e-ba1a-39dbaafe130c" name="UcColorpicker" type="562f4793-aabe-449f-8821-fc77e550698e" description="Seletor de cor utilizando o input color do HTML5">
+    <Object parentGuid="eabf2595-127f-4740-beee-048c9da4cc9a" user="NB-ACER\GILMAR" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2024-11-20T19:20:33.0000000Z" checksum="842602827590e56dddd3a6c88fcacf92" fullyQualifiedName="UCInputColor" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="65ba6926-2a7d-4c85-899d-e7c6b461634f" name="UCInputColor" type="562f4793-aabe-449f-8821-fc77e550698e" description="Color Picker" parent="UserControls" parentType="00000000-0000-0000-0000-000000000008">
       <Part type="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
-        <Source><![CDATA[<script type="text/javascript">
-	att = document.getElementById("{{GxControl}}");
-	att.setAttribute("type", "color");
-</script>]]></Source>
+        <Source><![CDATA[<input type="color" {{DataElement}}></input>]]></Source>
         <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
       </Part>
       <Part type="8e9e4a7c-a4d3-4c36-8e8e-fb6702402f63">
-        <Source><![CDATA[<Definition auto="false">
-  <Property Name="GxControl" Type="string" Default="" />
-</Definition>]]></Source>
+        <Source><![CDATA[<Definition auto="true" />]]></Source>
         <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
       </Part>
       <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
-        <InnerHtml><![CDATA[<FONT color=#800080 size=2 face=Consolas>&nbsp;</FONT><FONT color=black>Exemplo de uso:</FONT>
-<P>1) Adicionar o UserControl <EM>UcColorPicker</EM> no WebForm.</P>
-<P>2) No evento <EM>Start</EM> atribuir a propriedade <EM>InternalName</EM> de um atributi/variável à propriedade <EM>GxControl</EM> do <EM>UcColorPicker</EM>.</P>
-<P><FONT color=#800080 size=2 face=Consolas><FONT color=#800080 size=2 face=Consolas><FONT color=#800080 size=2 face=Consolas>Event Start<FONT color=#008000 size=2 face=Consolas><FONT color=#008000 size=2 face=Consolas><FONT color=#008000 size=2 face=Consolas></P>
-<P>&nbsp;&nbsp;&nbsp; // CategoriaCor -&gt; Varchar(10) vai armazenar valor no formato Hexadecimal. Ex: "#FF55AA"</P></FONT></FONT></FONT></FONT></FONT></FONT><FONT size=2 face=Consolas><FONT size=2 face=Consolas>
-<P>&nbsp;&nbsp;&nbsp; UcColorpicker1.GxControl = CategoriaCor.InternalName</P></FONT></FONT><FONT color=#800080 size=2 face=Consolas><FONT color=#800080 size=2 face=Consolas><FONT color=#800080 size=2 face=Consolas>
-<P>EndEvent</P></FONT></FONT></FONT>]]></InnerHtml>
-        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+        <Properties />
       </Part>
-      <Properties><Property><Name>Name</Name><Value>UcColorpicker</Value></Property><Property><Name>Description</Name><Value>Seletor de cor utilizando o input color do HTML5</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      <Properties><Property><Name>Name</Name><Value>UCInputColor</Value></Property><Property><Name>Description</Name><Value>Color Picker</Value></Property><Property><Name>IncludeInControlInformation</Name><Value>True</Value></Property><Property><Name>DataTypeFilter</Name><Value>varchar</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
     </Object>
   </Objects>
   <Dependencies>
@@ -51,8 +39,8 @@
     </Reference>
   </Dependencies>
   <ObjectsIdentityMapping>
-    <ObjectIdentity Type="00000000-0000-0000-0000-000000000008" Name="Utils" parent="">
-      <Guid>e4e6d65a-a75c-455a-bfc9-4b31a66a5caa</Guid>
+    <ObjectIdentity Type="00000000-0000-0000-0000-000000000008" Name="UserControls" parent="">
+      <Guid>eabf2595-127f-4740-beee-048c9da4cc9a</Guid>
     </ObjectIdentity>
   </ObjectsIdentityMapping>
 </ExportFile>
